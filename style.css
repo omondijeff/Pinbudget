@@ -115,34 +115,34 @@ a :link {
 }
 
 #text {
-    padding-top: 5em;
+    padding-top: 10%;
     /* padding-left: 10em; */
     text-align: center;
 }
 
 #text1 {
-    padding-top: 8em;
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-top: 8%;
+    padding-right: 5%;
+    padding-left: 5%;
     text-align: center;
 }
 
 #text3 {
-    padding-top: 5em;
-    padding-left: 8em;
+    padding-top: 5%;
+    padding-left: 8%;
     text-align: center;
 }
 
 #text2 {
-    padding-top: 5em;
-    padding-right: 5em;
-    padding-left: 5em;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
     text-align: center;
 }
 
 .col-md-12 {
-    padding-right: 8em;
-    padding-left: 8em;
+    padding-right: 8%;
+    padding-left: 8%;
 }
 
 .container img {
