@@ -28,13 +28,17 @@ a {
     color: #000000;
 }
 
-
-/* a {
+.main-nav a:active {
+    color: #718daa;
     text-decoration: none;
-} */
+}
+
+a {
+    text-decoration: none;
+}
 
 a :link {
-    color: white;
+    color: #718daa;
 }
 
 .logo {
@@ -49,16 +53,18 @@ a :link {
 
 .logo a,
 .main-nav a {
-    padding: 10px 15px;
+    padding: 10% 2em;
     text-transform: uppercase;
     text-align: center;
     display: block;
+    text-decoration: none;
 }
 
 .main-nav a {
     color: #000000;
     font-size: .99em;
     font-family: 'Acme';
+    display: block;
 }
 
 .main-nav a:hover {
