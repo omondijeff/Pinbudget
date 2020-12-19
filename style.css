@@ -85,36 +85,40 @@ a :link {
 
 @media (min-width: 100vw) {
     .header,
-    .main-nav {
+    .main-nav,
+    .footer {
         display: flex;
     }
-    .header {
+    .header,
+    .footer {
         flex-direction: column;
         align-items: center;
-        .header {
-            width: 80%;
-            margin: 0 auto;
-            max-width: 1150px;
-        }
+    }
+    .header {
+        width: 80%;
+        margin: 0 auto;
+        max-width: 1150px;
     }
 }
 
 @media (min-width: 1025px) {
-    .header {
+    .header,
+    .footer {
         flex-direction: row;
         justify-content: space-between;
     }
 }
 
 #sam {
-    width: 90%;
-    image-rendering: pixelated;
+    width: 100%;
+    image-rendering: initial;
+    /* image-rendering: pixelated;
     margin-left: 2em;
     image-resolution: 500dpi snap;
-    -webkit-image-resolution: 200dpi snap;
-    -moz-image-resolution: 200dpi snap;
-    -o-image-resolution: 200dpi snap;
-    -ms-image-resolution: 200dpi snap;
+    -webkit-image-resolution: 500dpi snap;
+    -moz-image-resolution: 500dpi snap;
+    -o-image-resolution: 500dpi snap;
+    -ms-image-resolution: 500dpi snap; */
 }
 
 .jumbotron {
@@ -165,7 +169,7 @@ footer {
     background-attachment: fixed;
     background-color: #2F2E41;
     color: #ffffff;
-    height: 20em;
+    height: 30em;
     font-family: 'Acme';
 }
 
@@ -215,4 +219,8 @@ footer.footer .social-link {
 
 #social {
     margin-top: 10%;
+}
+
+#addr {
+    font-size: 1.5em;
 }
