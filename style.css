@@ -21,6 +21,7 @@ body {
     background-color: #ffffff;
     font-family: 'Acme';
     color: #718daa;
+    position:fixed;
 }
 
 .main-nav {
